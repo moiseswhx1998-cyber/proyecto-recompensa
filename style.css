@@ -1,0 +1,81 @@
+body {
+  margin:0;
+  font-family: Arial;
+}
+
+/* HEADER */
+.header {
+  background:#1d2b36;
+  color:white;
+  padding:15px;
+  font-weight:bold;
+}
+
+/* LOGIN */
+.container {
+  display:flex;
+  justify-content:center;
+  margin-top:80px;
+}
+
+.card {
+  background:white;
+  padding:30px;
+  width:400px;
+  border-radius:10px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.2);
+  animation: fadeIn 0.5s ease;
+}
+
+input {
+  width:100%;
+  padding:12px;
+  margin:10px 0;
+  border-radius:5px;
+  border:1px solid #ccc;
+}
+
+button {
+  width:100%;
+  padding:14px;
+  background:#ffcc00;
+  border:none;
+  border-radius:25px;
+  font-weight:bold;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover {
+  background:#e6b800;
+}
+
+/* LOADER */
+.loader {
+  display:none;
+  text-align:center;
+  margin-top:20px;
+}
+
+/* DASHBOARD */
+body.dashboard {
+  background:#0b1a2b;
+}
+
+.container-dashboard {
+  padding:20px;
+}
+
+.card-dashboard {
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  margin-bottom:20px;
+  animation: fadeIn 0.5s ease;
+}
+
+/* ANIMACIÓN */
+@keyframes fadeIn {
+  from {opacity:0; transform:translateY(10px);}
+  to {opacity:1; transform:translateY(0);}
+}
